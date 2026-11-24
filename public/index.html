@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo de Filmes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🎬 Catálogo de Filmes</h1>
+
+    <form id="formFilme">
+
+        <input
+            type="text"
+            id="titulo"
+            placeholder="Título do filme"
+            required
+        >
+
+        <input
+            type="number"
+            id="ano"
+            placeholder="Ano"
+            required
+        >
+
+        <input
+            type="text"
+            id="genero"
+            placeholder="Gênero"
+            required
+        >
+
+        <button type="submit">
+            Cadastrar filme
+        </button>
+
+    </form>
+
+    <h2>Filmes cadastrados</h2>
+
+    <div id="listaFilmes"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
